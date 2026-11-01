@@ -1,58 +1,44 @@
 # Classroom Monitor
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java 17+" />
+  <img src="https://img.shields.io/badge/JavaFX-Desktop-Application-blue?style=for-the-badge&logo=java" alt="JavaFX" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status Active" />
+</p>
 
-Classroom Monitor is a JavaFX desktop application designed to help teachers and administrators manage classroom activities efficiently. It provides a simple and intuitive interface for monitoring student attendance, tracking classroom status, and managing instructional activity in real time.
+A modern JavaFX desktop application designed to help educators monitor classroom activity, track attendance, and manage student engagement in a streamlined and efficient way.
 
-This project is built using Java and JavaFX, making it a lightweight, cross-platform desktop solution for educational environments.
+Classroom Monitor is built to provide a simple yet powerful user experience for teachers, administrators, and academic staff who need quick insights into classroom operations.
 
-## Features
+## ✨ Key Features
 
-- Student attendance tracking
-- Real-time classroom status overview
-- Teacher dashboard for classroom monitoring
+- Real-time student attendance tracking
+- Teacher-friendly classroom dashboard
 - Student roster management
-- Attendance history and reports
-- Clean and responsive JavaFX UI
-- Easy setup and local database support
-- Extensible architecture for future enhancements
+- Attendance history and reporting
+- Quick classroom status overview
+- Clean and responsive JavaFX interface
+- Role-based access-friendly architecture
+- Modular design for future enhancements
 
-## Tech Stack
+## 🧩 Why This Project?
+
+Managing a classroom manually can be time-consuming and error-prone. Classroom Monitor addresses that by providing a centralized platform for:
+- tracking daily attendance
+- identifying attendance trends
+- monitoring classroom engagement
+- improving administrative efficiency
+- minimizing paperwork and manual records
+
+## 🏗️ Tech Stack
 
 - Java 17+
 - JavaFX
-- Maven or Gradle (depending on setup)
-- SQLite / MySQL / JDBC (optional, depending on implementation)
-- CSS for JavaFX styling
+- Maven
+- CSS for styling
+- JDBC / SQLite / MySQL (optional depending on implementation)
+- FXML for UI layouts
 
-## Project Goals
-
-Classroom Monitor aims to simplify classroom supervision by offering a single dashboard where teachers can:
-- view attendance records
-- monitor student activity
-- manage sessions efficiently
-- improve classroom organization
-- maintain quick access to student information
-
-## Screenshots
-
-Add screenshots here:
-- Dashboard View
-- Attendance View
-- Student Management View
-- Reports View
-
-Example:
-![Dashboard](docs/images/dashboard.png)
-
-## Prerequisites
-
-Before running the project, make sure you have the following installed:
-
-- Java JDK 17 or later
-- JavaFX SDK
-- Maven or Gradle
-- IDE such as IntelliJ IDEA or Eclipse
-
-## Project Structure
+## 📁 Project Structure
 
 ```text
 classroom-monitor/
@@ -65,15 +51,18 @@ classroom-monitor/
 │   │   │           ├── controllers/
 │   │   │           ├── models/
 │   │   │           ├── services/
-│   │   │           ├── util/
+│   │   │           ├── utils/
+│   │   │           ├── database/
 │   │   │           └── views/
-│   │   ├── resources/
-│   │   │   ├── css/
-│   │   │   ├── fxml/
-│   │   │   └── images/
+│   │   └── resources/
+│   │       ├── fxml/
+│   │       ├── css/
+│   │       └── images/
 │   └── test/
 │       └── java/
 ├── pom.xml
 ├── README.md
 ├── LICENSE
-└── .gitignore
+├── .gitignore
+└── docs/
+    └── screenshots/
