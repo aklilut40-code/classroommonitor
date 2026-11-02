@@ -1,4 +1,25 @@
-# Classroom Monitor
+
+ # 🏫 Classroom Monitor
+
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80" alt="Classroom Monitor Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="#overview"><img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java" alt="Java 17+" /></a>
+  <a href="#features"><img src="https://img.shields.io/badge/JavaFX-Desktop-FF7F50?style=for-the-badge" alt="JavaFX" /></a>
+  <a href="#license"><img src="https://img.shields.io/badge/License-Educational-4B5563?style=for-the-badge" alt="License" /></a>
+  <a href="#status"><img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" alt="Status" /></a>
+</p>
+
+<p align="center">
+  <strong>A smart classroom management system for tracking attendance, student records, and academic progress.</strong>
+</p>
+
+---
+
+## 🧭 Overview
+ # Classroom Monitor
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-17+-orange.svg?style=for-the-badge&logo=java" alt="Java 17+" />
