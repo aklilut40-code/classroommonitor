@@ -19,14 +19,7 @@
 ---
 
 ## 🧭 Overview
- # Classroom Monitor
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-17+-orange.svg?style=for-the-badge&logo=java" alt="Java 17+" />
-  <img src="https://img.shields.io/badge/JavaFX-Desktop%20App-blue.svg?style=for-the-badge&logo=openjdk" alt="JavaFX" />
-  <img src="https://img.shields.io/badge/Status-Project%20Ready-success.svg?style=for-the-badge" alt="Project Ready" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License" />
-</p>
+ 
 
 Classroom Monitor is a JavaFX-based desktop application developed to simplify classroom management and improve teacher productivity. It provides a user-friendly interface for tracking student attendance, managing classroom records, and monitoring academic activities efficiently.
 
